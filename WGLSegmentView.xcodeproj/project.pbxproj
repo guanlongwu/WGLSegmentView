@@ -40,6 +40,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		09305A8521AC2013009AAB81 /* WGLSegmentView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "WGLSegmentView-Info.plist"; sourceTree = "<group>"; };
 		09C31189219D738600C8701E /* libWGLSegmentView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWGLSegmentView.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		09C311AE219EB16C00C8701E /* WGLSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGLSegmentView.h; sourceTree = "<group>"; };
 		09C311AF219EB16C00C8701E /* WGLSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGLSegmentView.m; sourceTree = "<group>"; };
@@ -85,6 +86,7 @@
 		09C3118B219D738600C8701E /* WGLSegmentView */ = {
 			isa = PBXGroup;
 			children = (
+				09305A8521AC2013009AAB81 /* WGLSegmentView-Info.plist */,
 				09C311AE219EB16C00C8701E /* WGLSegmentView.h */,
 				09C311AF219EB16C00C8701E /* WGLSegmentView.m */,
 				09C311A4219D7B4B00C8701E /* CenterSegmentView */,
