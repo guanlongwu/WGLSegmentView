@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "WGLSegmentMainTableView.h"
 #import "WGLCenterSegmentView.h"
+#import "WGLSegmentMainTableView.h"
 NS_ASSUME_NONNULL_BEGIN
 @protocol WGLSegmentViewDelegate, WGLSegmentViewDataSource;
 
