@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09305A6221AC1C3B009AAB81 /* WGLSegmentMainTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C311B4219EB2AB00C8701E /* WGLSegmentMainTableView.m */; };
+		09305A6321AC1C51009AAB81 /* WGLSegmentMainTableView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 09C311B5219EB2AB00C8701E /* WGLSegmentMainTableView.h */; };
 		09C311B0219EB16C00C8701E /* WGLSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C311AF219EB16C00C8701E /* WGLSegmentView.m */; };
 		09C311B3219EB21C00C8701E /* WGLCenterSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C311B2219EB21C00C8701E /* WGLCenterSegmentView.m */; };
-		09C311B6219EB2AB00C8701E /* WGLSegmentMainTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C311B4219EB2AB00C8701E /* WGLSegmentMainTableView.m */; };
 		09C311B9219EB39B00C8701E /* WGLSegmentHorizontalScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C311B8219EB39B00C8701E /* WGLSegmentHorizontalScrollView.m */; };
 		09C311BC219EB44900C8701E /* WGLSegmentTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C311BA219EB44900C8701E /* WGLSegmentTabBar.m */; };
 		09C311BF219EB4DA00C8701E /* WGLSubSegmentBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C311BE219EB4DA00C8701E /* WGLSubSegmentBaseViewController.m */; };
 		09C311C0219ECD4F00C8701E /* WGLSegmentView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 09C311AE219EB16C00C8701E /* WGLSegmentView.h */; };
 		09C311C1219ECD4F00C8701E /* WGLCenterSegmentView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 09C311B1219EB21C00C8701E /* WGLCenterSegmentView.h */; };
 		09C311C2219ECD4F00C8701E /* WGLSegmentHorizontalScrollView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 09C311B7219EB39B00C8701E /* WGLSegmentHorizontalScrollView.h */; };
-		09C311C3219ECD4F00C8701E /* WGLSegmentMainTableView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 09C311B5219EB2AB00C8701E /* WGLSegmentMainTableView.h */; };
 		09C311C4219ECD4F00C8701E /* WGLSegmentTabBar.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 09C311BB219EB44900C8701E /* WGLSegmentTabBar.h */; };
 		09C311C5219ECD4F00C8701E /* WGLSubSegmentBaseViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 09C311BD219EB4DA00C8701E /* WGLSubSegmentBaseViewController.h */; };
 /* End PBXBuildFile section */
@@ -28,10 +28,10 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				09305A6321AC1C51009AAB81 /* WGLSegmentMainTableView.h in CopyFiles */,
 				09C311C0219ECD4F00C8701E /* WGLSegmentView.h in CopyFiles */,
 				09C311C1219ECD4F00C8701E /* WGLCenterSegmentView.h in CopyFiles */,
 				09C311C2219ECD4F00C8701E /* WGLSegmentHorizontalScrollView.h in CopyFiles */,
-				09C311C3219ECD4F00C8701E /* WGLSegmentMainTableView.h in CopyFiles */,
 				09C311C4219ECD4F00C8701E /* WGLSegmentTabBar.h in CopyFiles */,
 				09C311C5219ECD4F00C8701E /* WGLSubSegmentBaseViewController.h in CopyFiles */,
 			);
@@ -190,8 +190,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09305A6221AC1C3B009AAB81 /* WGLSegmentMainTableView.m in Sources */,
 				09C311B0219EB16C00C8701E /* WGLSegmentView.m in Sources */,
-				09C311B6219EB2AB00C8701E /* WGLSegmentMainTableView.m in Sources */,
 				09C311B3219EB21C00C8701E /* WGLCenterSegmentView.m in Sources */,
 				09C311B9219EB39B00C8701E /* WGLSegmentHorizontalScrollView.m in Sources */,
 				09C311BC219EB44900C8701E /* WGLSegmentTabBar.m in Sources */,
