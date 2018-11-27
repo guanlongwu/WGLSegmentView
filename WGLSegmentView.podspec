@@ -91,11 +91,11 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files = 'WGLSegmentView/*'
+  spec.source_files = 'WGLSegmentView/**/*.h'
   #spec.exclude_files = "Classes/Exclude"
-  spec.vendored_library = 'libs/WGLSegmentView.a'
+  #spec.vendored_library = 'libs/WGLSegmentView.a'
 
-  # spec.public_header_files = "WGLSegmentView/**/*.h"
+  spec.public_header_files = "WGLSegmentView/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -122,7 +122,7 @@ Pod::Spec.new do |spec|
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
-  spec.library = 'WGLSegmentView'
+  # spec.library = 'WGLSegmentView'
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
 

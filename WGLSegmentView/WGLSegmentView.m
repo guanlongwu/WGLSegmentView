@@ -102,6 +102,9 @@
     self.isNeedCalculate = YES;
     [self.mainTableView reloadData];
     [self.centerSegmentView reloadData];
+    
+    //触发scrollView滚动代理方法，调整segmentView联动临界点
+    [self scrollViewDidScroll:self.mainTableView];
 }
 
 #pragma mark - layout
