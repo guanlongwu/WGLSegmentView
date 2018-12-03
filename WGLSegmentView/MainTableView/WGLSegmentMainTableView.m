@@ -1,9 +1,9 @@
 //
 //  WGLSegmentMainTableView.m
-//  gamezone
+//  WGLKit
 //
 //  Created by wugl on 2018/5/24.
-//  Copyright © 2018年 huya. All rights reserved.
+//  Copyright © 2018年 WGLKit. All rights reserved.
 //
 
 #import "WGLSegmentMainTableView.h"

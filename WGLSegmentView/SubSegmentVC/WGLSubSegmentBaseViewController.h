@@ -1,9 +1,9 @@
 //
 //  WGLSubSegmentBaseViewController.h
-//  gamezone
+//  WGLKit
 //
 //  Created by wugl on 2018/5/25.
-//  Copyright © 2018年 huya. All rights reserved.
+//  Copyright © 2018年 WGLKit. All rights reserved.
 //
 
 //此类为分页控件的子控制器的父类(处理了scroll滑动手势冲突)

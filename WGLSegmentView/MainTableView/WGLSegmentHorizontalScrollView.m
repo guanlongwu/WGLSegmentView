@@ -3,7 +3,7 @@
 //  videozone
 //
 //  Created by yulc on 2018/7/3.
-//  Copyright © 2018年 huya. All rights reserved.
+//  Copyright © 2018年 WGLKit. All rights reserved.
 //
 
 #import "WGLSegmentHorizontalScrollView.h"
