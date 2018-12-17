@@ -519,6 +519,11 @@
     }
 }
 
+- (void)centerSegmentView:(WGLCenterSegmentView *)centerSegmentView didScroll:(UIScrollView *)scrolllView {
+    if ([self.delegate respondsToSelector:@selector(segmentView:didScroll:)]) {
+        [self.delegate segmentView:self didScroll:scrolllView];
+    }
+}
 
 //判断是否为不可滚动区域和是否可以多点滚动
 - (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event
