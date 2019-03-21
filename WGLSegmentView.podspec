@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "WGLSegmentView"
-  spec.version      = "0.4.0"
+  spec.version      = "0.5.0"
   spec.summary      = "This is a category display component."
 
   # This description is used to generate tags and improve search results.
